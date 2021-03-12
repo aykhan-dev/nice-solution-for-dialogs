@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
                             .makeText(applicationContext, "On Cancel Listener", Toast.LENGTH_SHORT)
                             .show()
                     }
-                ).show(supportFragmentManager, "TAG")
+                ).show(supportFragmentManager, ExampleDialog.TAG)
             }
 
         }

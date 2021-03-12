@@ -13,6 +13,8 @@ class ExampleDialog private constructor() : DialogFragment() {
 
     companion object {
 
+        const val TAG = "Example Dialog TAG"
+
         fun newInstance(
             onAccept: () -> Unit,
             onCancel: () -> Unit
